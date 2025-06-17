@@ -1,0 +1,77 @@
+.header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 32px;
+    width: 32px;
+    color: teal;
+}
+
+.logo-text {
+    margin-left: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d3748;
+}
+
+.button-group {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #4a5568;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.nav-button:hover {
+    background-color: #edf2f7;
+}
+
+.nav-button.active {
+    background-color: teal;
+    color: white;
+}
+
+.logout-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.logout-button:hover {
+    background-color: #c53030;
+}
